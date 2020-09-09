@@ -1,15 +1,20 @@
 {
   "name": "electron-hid-test",
   "version": "1.0.1",
-  "description": "",
+  "description": "Play with Electron and node-hid",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "rebuild": "electron-rebuild --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "hid",
+    "node-hid",
+    "usb",
+    "electron"
+  ],
+  "author": "Tod Kurt <todbotdotcom@gmail.com> (https://github.com/todbot)",
   "license": "ISC",
   "devDependencies": {
     "electron": "^10.1.1",
