@@ -1,6 +1,6 @@
 {
   "name": "electron-hid-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Play with Electron and node-hid",
   "main": "main.js",
   "scripts": {
