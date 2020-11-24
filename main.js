@@ -11,6 +11,10 @@ var HID = require('node-hid')
 
 console.log("HID devices:",HID.devices());
 
+if (process.platform === 'linux') {
+    app.disableHardwareAcceleration();
+}
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win
