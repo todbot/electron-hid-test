@@ -5,11 +5,8 @@ Extremely simple [Electron](https://www.electronjs.org/) app example using [`nod
 To use:
 ```
 npm install
-npm run rebuild
 npm run start
 ```
-
-The `npm run rebuild` is to rebuild any native code (i.e. `node-hid`) for the Electron runtime instead of the Node runtime used during `npm install`.
 
 For a slightly more complex example, see https://github.com/todbot/electron-hid-toy.
 
