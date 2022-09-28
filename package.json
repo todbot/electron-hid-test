@@ -1,6 +1,6 @@
 {
   "name": "electron-hid-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Play with Electron and node-hid",
   "main": "main.js",
   "scripts": {
@@ -16,9 +16,9 @@
   "author": "Tod Kurt <todbotdotcom@gmail.com> (https://github.com/todbot)",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^16.0.1"
+    "electron": "^18.3.15"
   },
   "dependencies": {
-    "node-hid": "^2.1.1"
+    "node-hid": "^2.1.2"
   }
 }
